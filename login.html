@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Entre na sua conta NexaTech para acompanhar pedidos e novidades."
+    />
+    <title>Entrar na sua conta | NexaTech</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="site">
+      <aside class="announcement" aria-label="Informações comerciais">
+        <span>Frete grátis acima de R$ 199</span>
+        <i aria-hidden="true"></i>
+        <span>10x sem juros</span>
+      </aside>
+
+      <header class="header">
+        <a class="brand" href="#" aria-label="NexaTech — página inicial">
+          <span class="brand__mark">N</span>
+          <span class="brand__name">nexa<span>tech</span></span>
+        </a>
+
+        <nav class="nav" aria-label="Navegação principal">
+          <a href="#">Produtos</a>
+          <a href="#">Categorias</a>
+          <a href="#">Ofertas</a>
+        </nav>
+
+        <div class="header__actions">
+          <form class="search" role="search">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <circle cx="10.8" cy="10.8" r="5.8"></circle>
+              <path d="m15.2 15.2 4.1 4.1"></path>
+            </svg>
+            <label class="sr-only" for="catalog-search">
+              Buscar no catálogo
+            </label>
+            <input
+              id="catalog-search"
+              type="search"
+              placeholder="Buscar no catálogo"
+            />
+          </form>
+          <a class="account-link" href="#">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <circle cx="12" cy="8" r="3.5"></circle>
+              <path d="M5.5 19c.6-3.2 3-5 6.5-5s5.9 1.8 6.5 5"></path>
+            </svg>
+            <span>Entre ou Cadastre-se</span>
+          </a>
+        </div>
+      </header>
+
+      <main class="login-page">
+        <section class="welcome" aria-labelledby="welcome-title">
+          <div class="welcome__content">
+            <p class="eyebrow">
+              <span aria-hidden="true">+</span> Sua conta. Seu setup
+            </p>
+            <h1 id="welcome-title">
+              Bem-vindo
+              <br />
+              <strong>de volta.</strong>
+            </h1>
+            <p class="welcome__description">
+              Acompanhe pedidos, descubra novidades e continue montando o setup
+              que combina com você.
+            </p>
+          </div>
+
+          <div class="security">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path
+                d="M12 2.8 19 5v5.6c0 4.7-2.8 8.7-7 10.6-4.2-1.9-7-5.9-7-10.6V5l7-2.2Z"
+              ></path>
+              <path d="m8.8 11.8 2.1 2.1 4.5-4.7"></path>
+            </svg>
+            <p>
+              <strong>Compra protegida</strong>
+              <span>Seus dados sempre seguros</span>
+            </p>
+          </div>
+        </section>
+
+        <section class="access" aria-labelledby="access-title">
+          <div class="access__inner">
+            <p class="eyebrow">Área de acesso</p>
+            <h2 id="access-title">Entre na sua conta</h2>
+            <p class="access__intro">
+              Use seu e-mail e senha para continuar.
+            </p>
+
+            <form class="login-form">
+              <div class="field">
+                <label for="email">E-mail</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="voce@email.com"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+
+              <div class="field">
+                <label for="password">Senha</label>
+                <div class="password-field">
+                  <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    placeholder="Digite sua senha"
+                    autocomplete="current-password"
+                    required
+                  />
+                  <span class="password-field__icon">
+                    <svg aria-hidden="true" viewBox="0 0 24 24">
+                      <path
+                        d="M2.8 12s3.4-5.2 9.2-5.2 9.2 5.2 9.2 5.2-3.4 5.2-9.2 5.2S2.8 12 2.8 12Z"
+                      ></path>
+                      <circle cx="12" cy="12" r="2.2"></circle>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+
+              <a class="forgot-password" href="#">Esqueci minha senha</a>
+
+              <button type="submit">
+                <span>Entrar</span>
+                <svg aria-hidden="true" viewBox="0 0 20 20">
+                  <path d="M5.8 14.2 14.2 5.8M7.1 5.8h7.1v7.1"></path>
+                </svg>
+              </button>
+            </form>
+
+            <p class="signup">
+              Ainda não tem uma conta? <a href="#">Cadastre-se</a>
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <b>nexa<strong>tech</strong></b>
+        <span>Periféricos para todos os seus momentos.</span>
+        <span>© 2026 NexaTech</span>
+      </footer>
+    </div>
+  </body>
+</html>
